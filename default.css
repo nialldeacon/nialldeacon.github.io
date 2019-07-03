@@ -9,7 +9,14 @@ body a:link,a:visited
 {
 color:#545165;
 }
-
+div.container1
+{
+width:665px;
+margin-left:auto;
+margin-right:auto;
+height:162px;
+background-color:white;
+}
 div.container2
 {
 width:665px;
