@@ -45,7 +45,7 @@ body a:link,a:visited
   	width: 25%;
   	background-color: #f1f1f1;
   	height: 100%;
-	border-left: none;
+	left:-50%
 	float: left;
 	padding-left: 0;
 }
@@ -64,6 +64,7 @@ body a:link,a:visited
 .content-container
 {
   	margin: 0;
+	left=25%
   	padding-top: 100px;
   	width: 50%;
   	background-color: yellow;
