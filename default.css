@@ -70,6 +70,8 @@ body a:link,a:visited
 }
 .footer-space
 {
+	clear: both;
+	position: relative;
 	background-color:#8782a2;
   	min-height: 80px;
 	width: 100%;  
