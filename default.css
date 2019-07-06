@@ -48,6 +48,7 @@ body a:link,a:visited
   	background-color: #f1f1f1;
   	height: 100%;
   	overflow: auto;
+	position: relative;
 }
 
 .sidebar-right
@@ -59,13 +60,15 @@ body a:link,a:visited
 	background-color: #8782a2;
 	height: 100%;
 	overflow: auto;
+	position: relative;
 }
 .content-container
 {
-width:50%;
-left:25%;
-height:2010px;
-background-color:yellow;
+	width:50%;
+	left:25%;
+	height:2010px;
+	background-color:yellow;
+	position: relative;
 }
 
 div.nav
