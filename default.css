@@ -69,24 +69,24 @@ body a:link,a:visited
 	float: left;
 }
 
-div.nav
+.nav
 {
 display: inline-block;
 margin-left:auto;
 padding: 10px 25px 10px 10px;
 height:45px;
 }
-div.nav ul
+.nav ul
 {
 list-style-type:none;
 margin:0;
 padding:0;
 }
-div.nav li
+.nav li
 {
 display: inline-block;
 }
-div.nav a:link
+.nav a:link
 {
 height:15px;
 display:inline-block;
@@ -102,7 +102,10 @@ padding-top:5px;
 padding-left:10px;
 padding-right:10px;
 }
-
+.nav a:hover
+{
+color: #f1f1f1;
+}
 /*Go to desktop version of site when desktop size*/
 @media only screen and (min-width: 900px) {
 .sidebar-content-right
