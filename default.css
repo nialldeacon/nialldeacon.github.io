@@ -33,7 +33,12 @@ body a:link,a:visited
 {
 	float:right;	
 }
-
+.main_wrapper
+{
+	display: inline-block;	
+	width: 100%;
+	margin: 0;
+}
 .sidebar-left
 {
   	margin: 0;
