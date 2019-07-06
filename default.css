@@ -1,14 +1,26 @@
 body {
-font-family:Arial;
-font-size:14px;
-color:#545165;
-line-height:18px;
-background-color:white;
+  font-family:Arial;
+  font-size:14px;
+  color:#545165;
+  line-height:18px;
+  background-color:white;
 }
 body a:link,a:visited
 {
-color:#545165;
+  color:#545165;
 }
+.header-space
+{
+  min-height: 80px;
+	width: 100%;  
+	position: fixed;
+	top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+
+
 div.container1
 {
 width:665px;
