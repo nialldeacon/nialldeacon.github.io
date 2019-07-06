@@ -46,7 +46,9 @@ body a:link,a:visited
   	width: 25%;
   	background-color: #f1f1f1;
   	height: 100%;
-	display: inline-block;
+	border-left: none;
+	float: left;
+	padding-left: 0;
 }
 
 .sidebar-right
@@ -56,11 +58,13 @@ body a:link,a:visited
 	width: 25%;
 	background-color: #8782a2;
 	height: 100%;
-	display: inline-block;
+	border-left: none;
+	float: left;
+	padding-left: 0;
 }
 .content-container
 {
-	width:50%;
+	width:40%;
 	height:2010px;
 	background-color:yellow;
 	display: inline-block;
