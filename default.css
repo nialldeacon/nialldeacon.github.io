@@ -42,36 +42,34 @@ body a:link,a:visited
 {
 	padding-top: 100px;
   	margin: 0;
-  	width: 25%;
   	background-color: #f1f1f1;
   	height: 100%;
-	margin-left:-50%
-	padding-left: 0;
-	position: relative;
+	width: 100%;
+	float: left;
 }
 
 .sidebar-right
 {
 	margin: 0;
 	padding-top: 100px;	
-	width: 25%;
 	background-color: blue;
 	height: 100%;
-	border-left: none;
-	float: right;
-	padding-left: 0;
-	position: relative;
+	width: 100%;
+	float: left;
 }
 .content-container
 {
   	margin: 0;
-	margin-left: 25%;
   	padding-top: 100px;
-  	width: 50%;
   	background-color: yellow;
-  	height: 100%;
-	border-left: none;
-	position: relative;
+  	height: 100%;	
+	width: 100%;
+	float: left;
+}
+.sidebar-content-right
+{
+	width: 100%;
+	float: left;
 }
 
 div.nav
@@ -156,3 +154,30 @@ padding-left:10px;
 padding-right:10px;
 }
 
+/*Go to desktop version of site when desktop size*/
+@media only screen and (min-width: 900px) {
+.sidebar-content-right
+{
+	width: 75%;
+	float: right;
+}
+
+    
+.wrap, .main-content, .sidebar-left, .sidebar-right {
+		position: relative;
+	}
+	
+	.sidebar-right {
+	    width: 33.33333%;
+	    float: right;
+	}
+	
+	.sidebar-left {
+	    width: 25%;
+	    float: left;
+	}
+	
+	.main-content {
+	    width: 66.666667%;
+	}
+}
