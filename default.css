@@ -54,6 +54,7 @@ body a:link,a:visited
   	background-color: #f1f1f1;
 	width: 100%;
 	float: left;
+	padding-bottom:80px;
 }
 
 .sidebar-right
@@ -63,6 +64,7 @@ body a:link,a:visited
 	background-color: blue;
 	width: 100%;
 	float: left;
+		padding-bottom:80px;
 }
 .content-container
 {
@@ -71,6 +73,7 @@ body a:link,a:visited
   	background-color: yellow;
 	width: 100%;
 	float: left;
+		padding-bottom:80px;
 }
 .sidebar-content-right
 {
