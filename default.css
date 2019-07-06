@@ -11,12 +11,13 @@ body a:link,a:visited
 }
 .header-space
 {
-  min-height: 80px;
+	background-color:#545165;
+  	min-height: 80px;
 	width: 100%;  
 	position: fixed;
 	top: 0;
-  left: 0;
-  z-index: 9999;
+  	left: 0;
+  	z-index: 9999;
 }
 
 
