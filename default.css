@@ -56,18 +56,22 @@ body a:link,a:visited
 	margin: 0;
 	padding: 0;	
 	width: 25%;
-	background-color: #8782a2;
+	background-color: blue;
 	height: 100%;
 	border-left: none;
-	float: left;
+	float: right;
 	padding-left: 0;
 }
 .content-container
 {
-	width:40%;
-	height:2010px;
-	background-color:yellow;
-	display: inline-block;
+  	margin: 0;
+  	padding: 0;
+  	width: 40%;
+  	background-color: yellow;
+  	height: 100%;
+	border-left: none;
+	float: left;
+	padding-left: 0;
 }
 
 div.nav
