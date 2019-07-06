@@ -9,6 +9,10 @@ body a:link,a:visited
 {
   color:#545165;
 }
+.site_wrapper
+{
+	max-width: 1100px;	
+}
 .header-space
 {
 	background-color:#8782a2;
