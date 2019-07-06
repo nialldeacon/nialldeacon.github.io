@@ -28,7 +28,10 @@ body a:link,a:visited
 	float:left;
 	width: 400px;
 }
-
+.nav-area
+{
+	float:right;	
+}
 
 div.container1
 {
