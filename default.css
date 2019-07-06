@@ -33,28 +33,33 @@ body a:link,a:visited
 	float:right;	
 }
 
-div.container1
+.content-container
 {
-width:665px;
+width:74%;
 margin-left:auto;
 margin-right:auto;
-height:162px;
-background-color:red;
+height:2010px;
+background-color:yellow;
 }
-div.container2
+.sidebar-left
 {
-width:5px;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.content-container
+{
+width:50%;
 margin-left:auto;
 margin-right:auto;
 height:2010px;
 background-color:yellow;
 }
 
-div#banner
-{
-width:665px;
-height:162px;
-}
 div.nav
 {
 display: inline-block;
@@ -137,12 +142,12 @@ padding-left:10px;
 padding-right:10px;
 }
 
-div#main
-{
-float:left;
-text-align:left;
-padding-top:10px;
-padding-bottom:10px;
-padding-left:20px;
-padding-right:20px;
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
 }
