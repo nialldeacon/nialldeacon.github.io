@@ -11,7 +11,6 @@ body a:link,a:visited
 }
 .header-space
 {
-	display: inline-block;
 	background-color:#8782a2;
   	min-height: 80px;
 	width: 100%;  
@@ -22,8 +21,8 @@ body a:link,a:visited
 }
 .name-area
 {
+	display: inline-block;
 	width: 400px;
-	float: left;
 }
 
 
@@ -51,10 +50,10 @@ height:162px;
 }
 div.nav
 {
+display: inline-block;
 margin-left:auto;
 padding: 10px 25px 10px 10px;
 height:45px;
-float:right;
 }
 div#nav ul
 {
