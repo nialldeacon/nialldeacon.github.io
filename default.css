@@ -68,6 +68,14 @@ body a:link,a:visited
 	width: 100%;
 	float: left;
 }
+.footer-space
+{
+	background-color:#8782a2;
+  	min-height: 80px;
+	width: 100%;  
+	top: 0;
+  	left: 0;
+}
 
 .nav
 {
