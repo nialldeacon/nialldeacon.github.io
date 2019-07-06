@@ -51,6 +51,17 @@ background-color:yellow;
   height: 100%;
   overflow: auto;
 }
+
+.sidebar-right
+{
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #01f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
 .content-container
 {
 width:50%;
