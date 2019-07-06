@@ -43,7 +43,6 @@ body a:link,a:visited
 	padding-top: 100px;
   	margin: 0;
   	background-color: #f1f1f1;
-  	height: 100%;
 	width: 100%;
 	float: left;
 }
@@ -53,7 +52,6 @@ body a:link,a:visited
 	margin: 0;
 	padding-top: 100px;	
 	background-color: blue;
-	height: 100%;
 	width: 100%;
 	float: left;
 }
@@ -62,7 +60,6 @@ body a:link,a:visited
   	margin: 0;
   	padding-top: 100px;
   	background-color: yellow;
-  	height: 100%;	
 	width: 100%;
 	float: left;
 }
@@ -97,54 +94,6 @@ font-size:15px;
 font-weight:bold;
 color:#FFFFFF;
 background-color:#8782a2;
-text-align:center;
-text-decoration:none;
-text-transform:lowercase;
-padding-bottom:10px;
-padding-top:5px;
-padding-left:10px;
-padding-right:10px;
-}
-div.nav a:visited
-{
-height:15px;
-display:block;
-font-size:15px;
-font-weight:bold;
-color:#FFFFFF;
-background-color:#8782a2;
-text-align:center;
-text-decoration:none;
-text-transform:lowercase;
-padding-bottom:10px;
-padding-top:5px;
-padding-left:10px;
-padding-right:10px;
-}
-div.nav a:active
-{
-height:15px;
-display:block;
-font-size:15px;
-font-weight:bold;
-color:#FFFFFF;
-background-color:#545165;
-text-align:center;
-text-decoration:none;
-text-transform:lowercase;
-padding-bottom:10px;
-padding-top:5px;
-padding-left:10px;
-padding-right:10px;
-}
-div.nav a:hover
-{
-height:15px;
-display:block;
-font-size:15px;
-font-weight:bold;
-color:#FFFFFF;
-background-color:#545165;
 text-align:center;
 text-decoration:none;
 text-transform:lowercase;
