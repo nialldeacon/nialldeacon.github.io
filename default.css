@@ -22,12 +22,10 @@ body a:link,a:visited
 	top: 0;
   	left: 0;
   	z-index: 9999;
-	display: flex;
-	justify-content:space-between; 
 }
 .name-area
 {
-	display: inline-block;
+	float:left;
 	width: 400px;
 }
 
