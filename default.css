@@ -63,7 +63,7 @@ padding:0;
 }
 div#nav li
 {
-float:left;
+display: inline-block;
 }
 div.nav a:link
 {
