@@ -55,7 +55,7 @@ margin-left:auto;
 padding: 10px 25px 10px 10px;
 height:45px;
 }
-div#nav ul
+div.nav ul
 {
 list-style-type:none;
 margin:0;
@@ -65,7 +65,7 @@ div#nav li
 {
 float:left;
 }
-div#nav a:link
+div.nav a:link
 {
 height:15px;
 display:inline-block;
@@ -81,7 +81,7 @@ padding-top:5px;
 padding-left:10px;
 padding-right:10px;
 }
-div#nav a:visited
+div.nav a:visited
 {
 height:15px;
 display:block;
@@ -97,7 +97,7 @@ padding-top:5px;
 padding-left:10px;
 padding-right:10px;
 }
-div#nav a:active
+div.nav a:active
 {
 height:15px;
 display:block;
@@ -113,7 +113,7 @@ padding-top:5px;
 padding-left:10px;
 padding-right:10px;
 }
-div#nav a:hover
+div.nav a:hover
 {
 height:15px;
 display:block;
