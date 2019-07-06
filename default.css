@@ -163,7 +163,7 @@ padding-right:10px;
 }
 
     
-.wrap, .main-content, .sidebar-left, .sidebar-right {
+.content-container, .sidebar-left, .sidebar-right {
 		position: relative;
 	}
 	
