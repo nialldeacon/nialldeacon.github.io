@@ -34,36 +34,31 @@ body a:link,a:visited
 	float:right;	
 }
 
-.content-container
-{
-width:75%;
-height:2010px;
-background-color:yellow;
-}
 .sidebar-left
 {
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  height: 100%;
-  overflow: auto;
+  	margin: 0;
+	left=: -50%;
+  	padding: 0;
+  	width: 25%;
+  	background-color: #f1f1f1;
+  	height: 100%;
+  	overflow: auto;
 }
 
 .sidebar-right
 {
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #8782a2;
-  height: 100%;
-  overflow: auto;
+	margin: 0;
+	padding: 0;
+	right: 0;	
+	width: 25%;
+	background-color: #8782a2;
+	height: 100%;
+	overflow: auto;
 }
 .content-container
 {
 width:50%;
-margin-left:auto;
-margin-right:auto;
+left:25%;
 height:2010px;
 background-color:yellow;
 }
