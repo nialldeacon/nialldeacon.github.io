@@ -54,7 +54,6 @@ body a:link,a:visited
   	background-color: #f1f1f1;
 	width: 100%;
 	float: left;
-	padding-bottom:80px;
 }
 
 .sidebar-right
@@ -64,7 +63,6 @@ body a:link,a:visited
 	background-color: blue;
 	width: 100%;
 	float: left;
-		padding-bottom:80px;
 }
 .content-container
 {
@@ -73,7 +71,6 @@ body a:link,a:visited
   	background-color: yellow;
 	width: 100%;
 	float: left;
-		padding-bottom:80px;
 }
 .sidebar-content-right
 {
@@ -82,11 +79,11 @@ body a:link,a:visited
 }
 .footer-space
 {
-	position: absolute;
+	position: relative;
 	background-color:green;
   	height: 60px;
 	width: 100%;  
-	top: -60px;
+	top: 0;
   	left: 0;
  	right: 0;
 	bottom: 0;
