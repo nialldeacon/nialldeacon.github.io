@@ -79,6 +79,7 @@ body a:link,a:visited
 }
 .footer-space
 {
+	clear: both;
 	position: relative;
 	background-color:green;
   	height: 60px;
