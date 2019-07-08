@@ -119,6 +119,117 @@ color: #f1f1f1;
 }
 
 
+
+/*define social media and contact buttons*/
+.button-github {
+    background: url(./icons/github.svg) no-repeat center, blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.button-github:hover{
+    opacity: 0.7;
+}
+.button-ads {
+    background: url(./icons/ads_logo.svg) no-repeat center,blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.button-ads:hover{
+    opacity: 0.7;
+}
+
+
+.button-mail {
+    background: url(./icons/envelope.svg) no-repeat center,blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.button-mail:hover{
+    opacity: 0.7;
+}
+
+.button-github {
+    background: url(./icons/github_inv.svg) no-repeat center,blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.button-github:hover{
+    opacity: 0.7;
+}
+
+
+.button-linkedin {
+    background: url(./icons/linkedin_inv.svg) no-repeat center,blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.button-linkedin:hover{
+    opacity: 0.7;
+}
+
+
+.button-facebook {
+    background: url(./icons/facebook_inv.svg) no-repeat center,blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.button-facebook:hover{
+    opacity: 0.7;
+}
+
+.button-twitter {
+    background: url(./icons/twitter.svg) no-repeat center,blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.button-twitter:hover{
+    opacity: 0.7;
+}
+	
+
+
 /*Go to desktop version of site when desktop size*/
 @media only screen and (min-width: 900px) {
 .sidebar-content-right
