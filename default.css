@@ -79,6 +79,36 @@ body a:link,a:visited
 	width: 100%;  
 }
 
+.footer-main
+{
+   width: 100%;
+   float: left;
+}
+.footer-left
+{
+    width: 300px;
+    float: left;
+    display: block;
+    margin: 10;
+    padding: 0;
+}
+.footer-right
+{
+    float: right;
+    margin: 10;
+    padding: 0;
+}
+.footer-bottom
+{
+    clear: both;
+    width: 100%;
+    margin: 3px;
+    text-align: center;
+    font-size: 8pt;
+    height:20px;
+}
+
+
 /*Define the elements required for the nav menu*/ 
 .nav
 {
