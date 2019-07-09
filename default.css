@@ -80,12 +80,6 @@ body a:link,a:visited
     position: relative;
     min-height:150px;
 }
-
-.footer-main
-{
-   width: 100%;
-   float: left;
-}
 .footer-left
 {
     width: 300px;
