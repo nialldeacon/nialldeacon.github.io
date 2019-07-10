@@ -61,7 +61,7 @@ body a:link,a:visited
 }
 .content-container
 {
-  	padding-top: 100px;
+  	top: 100px;
   	background-color: yellow;
 	float: left;
 	    margin: 0;
