@@ -302,8 +302,6 @@ color: #f1f1f1;
 	}
 	
 	.content-container {
-	    float: none;
-            position: static;
-	    width: auto;
+	    width: calc(100% - 250px);
 	}
 }
