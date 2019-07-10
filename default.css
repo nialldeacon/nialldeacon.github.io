@@ -37,8 +37,6 @@ body a:link,a:visited
 .main_wrapper
 {	
 	width: 100%;
-	padding-top: 100px;
-	margin: 0 auto;
 }
 
 .main-content, .sidebar-left, .sidebar-right {
@@ -51,17 +49,23 @@ body a:link,a:visited
 .sidebar-left
 {
   	background-color: #f1f1f1;
+	    margin: 0;
+    padding: 0;
 }
 
 .sidebar-right
 {
 	background-color: blue;
+	    margin: 0;
+    padding: 0;
 }
 .content-container
 {
   	padding-top: 100px;
   	background-color: yellow;
 	float: left;
+	    margin: 0;
+    padding: 0;
 }
 .sidebar-content-right
 {
