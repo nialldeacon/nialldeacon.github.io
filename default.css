@@ -311,6 +311,8 @@ color: #f1f1f1;
 	}
 	
 	.content-container {
+		
+	    padding-top: 100px;
 	    width: calc(100% - 250px);
 	}
 	.headshot{
