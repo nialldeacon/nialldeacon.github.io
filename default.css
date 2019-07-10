@@ -282,7 +282,7 @@ color: #f1f1f1;
 @media only screen and (min-width: 900px) {
 .sidebar-content-right
 {
-	width: auto;
+	width: calc(100% - 250px);
 	float: right;
 }
 
