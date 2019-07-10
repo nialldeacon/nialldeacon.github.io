@@ -123,6 +123,12 @@ body a:link,a:visited
 
 /*define text styling containers*/
 
+/*Image formating*/
+
+.headshot-circle {
+    width: 200px;
+    clip-path: circle(100px at 50% 40%);
+}
 
 /*Define the elements required for the nav menu*/ 
 .nav
