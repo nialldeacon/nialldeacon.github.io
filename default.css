@@ -102,27 +102,26 @@ body a:link,a:visited
     height:20px;
 }
 
-
-/*define text styling containers*/
 .headshot{
     position: relative;
-    width: 200px;
+    width: 450px;
     top: 10px;
     bottom: 10px;
     right: 20px;
     left: 30px;
-    display:block;
+    display:inline-block;
+}
+.headshot-img{
+    width:200px;
+    float:left;
 }
 .headshot-caption{
-    position: relative;
-    top:-50px;
+    padding-top: 50px;
+    width:200px;
+    float: right;   
 }
-/*Image formating*/
 
-.headshot-circle {
-    width: 200px;
-    clip-path: circle(100px at 50% 40%);
-}
+/*define text styling containers*/
 
 
 /*Define the elements required for the nav menu*/ 
@@ -305,3 +304,12 @@ color: #f1f1f1;
 	    width: calc(100% - 250px);
 	}
 }
+	.headshot{
+	    width:200px;
+	    display:block;
+	}
+	.headshot-caption{
+
+    position: relative;
+    top:-50px;
+	}
