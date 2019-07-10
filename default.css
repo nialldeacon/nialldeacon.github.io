@@ -314,8 +314,7 @@ color: #f1f1f1;
 	    display:block;
 	}
 	.headshot-caption{
-
-    position: relative;
-    top:-50px;
+		position: relative;
+    		top: -50px;
 	}
 }
