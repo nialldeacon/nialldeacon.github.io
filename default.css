@@ -37,6 +37,7 @@ body a:link,a:visited
 .main_wrapper
 {	
 	width: 100%;
+	padding-top: 100px;
 }
 
 .main-content, .sidebar-left, .sidebar-right {
@@ -61,7 +62,6 @@ body a:link,a:visited
 }
 .content-container
 {
-  	top: 100px;
   	background-color: yellow;
 	float: left;
 	    margin: 0;
@@ -319,6 +319,6 @@ color: #f1f1f1;
 	}
 	.headshot-caption{
 		position: relative;
-    		top: -50px;
+    		top: -100px;
 	}
 }
