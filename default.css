@@ -309,7 +309,6 @@ color: #f1f1f1;
 	.content-container {
 	    width: calc(100% - 250px);
 	}
-}
 	.headshot{
 	    width:200px;
 	    display:block;
@@ -319,3 +318,4 @@ color: #f1f1f1;
     position: relative;
     top:-50px;
 	}
+}
