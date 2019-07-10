@@ -45,7 +45,6 @@ body a:link,a:visited
 }
 .sidebar-left
 {
-	padding-top: 100px;
   	background-color: #f1f1f1;
 	width: 100%;
 	float: left;
@@ -53,7 +52,6 @@ body a:link,a:visited
 
 .sidebar-right
 {
-	padding-top: 100px;	
 	background-color: blue;
 	width: 100%;
 	float: left;
@@ -292,11 +290,13 @@ color: #f1f1f1;
 	}
 	
 	.sidebar-right {
+	    padding-top: 100px;
 	    width: 250px;
 	    float: right;
 	}
 	
 	.sidebar-left {
+	    padding-top: 100px;
 	    width: 250px;
 	    float: left;
 	}
