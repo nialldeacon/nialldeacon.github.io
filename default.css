@@ -126,9 +126,7 @@ body a:link,a:visited
 }
 .main-text-container
 {
-	padding-left:10px;
-	padding-right:10px;
-	padding-bottom:10px;
+	padding:20px;
 }
 
 /*define text styling containers*/
