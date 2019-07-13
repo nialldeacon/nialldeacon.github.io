@@ -144,15 +144,19 @@ body a:link,a:visited
     clip-path: circle(100px at 50% 40%);
 }
 .full-column {
-width: 100%;	
+width: 90%;	
+}
+
+.full-column-portrait {
+width: 50%;	
 }
 /*list formatting*/
 .bio {
-	list-style: none
+	list-style: none;
 	display:block;	
 }
 .bio-sub {
-	list-style: none
+	list-style: none;
 	display:block;	
 }
 
