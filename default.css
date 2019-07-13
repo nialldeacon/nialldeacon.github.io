@@ -298,48 +298,8 @@ color: #f1f1f1;
 }
 	
 
-
-/*Go to desktop version of site when desktop size*/
-/* multiple queries to take care of retina displays etc. Basically only goes to desktop when the orientation is landscape and the window is big*/
-@media only screen and (min-width: 750px) and (max-resolution: 1.25dppx),only screen and (min-width: 1500px) and (max-resolution: 2.5dppx),only screen and (min-width: 2250px) and (max-resolution: 3.5dppx) {
-.sidebar-content-right
-{
-	width: calc(100% - 250px);
-	float: right;
-}
-
-    
-.content-container, .sidebar-left, .sidebar-right {
-		position: relative;
-	}
-	
-	.sidebar-right {
-	    padding-top: 100px;
-	    width: 250px;
-	    float: right;
-	}
-	
-	.sidebar-left {
-	    padding-top: 100px;
-	    width: 250px;
-	    float: left;
-	}
-	
-	.content-container {
-		
-	    width: calc(100% - 250px);
-	}
-	.headshot{
-	    width:200px;
-	    display:block;
-	}
-	.headshot-caption{
-		position: relative;
-    		top: -100px;
-	}
-}
 /* specific small desktop query*/
-@media only screen and (min-width: 750px) and (max-width: 1100px) and (max-resolution: 1.25dppx),only screen and (min-width: 1500px)and (max-width: 2200px) and (max-resolution: 2.5dppx),only screen and (min-width: 2250px)and (min-width: 3300px) and (max-resolution: 3.5dppx) {
+@media only screen and (min-width: 900px) {
 .sidebar-content-right
 {
 	width: calc(100% - 200px);
@@ -368,10 +328,15 @@ color: #f1f1f1;
 	    width: calc(100% - 200px);
 	}
 	
-
+	.main-text-container{
+position: relative;
+	text-align: left;
+	right:30px;
+	left:30px;
+	width:80%;
 	
 	.headshot{
-	    width:150px;
+	    width:840px;
 	    display:block;
 	}
 	.headshot-img{
@@ -388,6 +353,161 @@ color: #f1f1f1;
 	}
 }
 
+/*Go to desktop version of site when desktop size*/
+@media only screen and (min-width: 1200px)  {
+.sidebar-content-right
+{
+	width: calc(100% - 250px);
+	float: right;
+}
+
+    
+.content-container, .sidebar-left, .sidebar-right {
+		position: relative;
+	}
+	
+	.sidebar-right {
+	    padding-top: 100px;
+	    width: 250px;
+	    float: right;
+	}
+	
+	.sidebar-left {
+	    padding-top: 100px;
+	    width: 250px;
+	    float: left;
+	}
+		.main-text-container{
+position: relative;
+	text-align: left;
+	right:40px;
+	left:40px;
+	width:620px;
+	}
+	.content-container {
+		
+	    width: calc(100% - 250px);
+	}
+	.headshot{
+	    width:200px;
+	    display:block;
+	}
+	.headshot-caption{
+		position: relative;
+    		top: -100px;
+	}
+	
+}
+
+/* specific bigger desktop query*/
+@media only screen and (min-width: 1500px) {
+.sidebar-content-right
+{
+	width: calc(100% - 300px);
+	float: right;
+}
+
+    
+.content-container, .sidebar-left, .sidebar-right {
+		position: relative;
+	}
+	
+	.sidebar-right {
+	    padding-top: 100px;
+	    width: 300px;
+	    float: right;
+	}
+	
+	.sidebar-left {
+	    padding-top: 100px;
+	    width: 300px;
+	    float: left;
+	}
+	
+	.content-container {
+		
+	    width: calc(100% - 300px);
+	}
+	
+	.main-text-container{
+position: relative;
+	text-align: left;
+	right:50px;
+	left:50px;
+	width:800px;
+	}
+	.headshot{
+	    width:250px;
+	    display:block;
+	}
+	.headshot-img{
+   	 width:250px;
+	}
+	.headshot-circle {
+    width: 250px;
+    clip-path: circle(125px at 50% 40%);
+}
+	.headshot-caption{	
+	    width:250px;
+		position: relative;
+    		top: -125px;
+	}
+}
+
+/* specific huge desktop query*/
+@media only screen and (min-width: 1800px) {
+.sidebar-content-right
+{
+	width: calc(100% - 400px);
+	float: right;
+}
+
+    
+.content-container, .sidebar-left, .sidebar-right {
+		position: relative;
+	}
+	
+	.sidebar-right {
+	    padding-top: 100px;
+	    width: 400px;
+	    float: right;
+	}
+	
+	.sidebar-left {
+	    padding-top: 100px;
+	    width: 400px;
+	    float: left;
+	}
+	
+	.content-container {
+		
+	    width: calc(100% - 400px);
+	}
+	
+	.main-text-container{
+position: relative;
+	text-align: left;
+	right:60px;
+	left:60px;
+	width:880px;
+	}
+	.headshot{
+	    width:300px;
+	    display:block;
+	}
+	.headshot-img{
+   	 width:300px;
+	}
+	.headshot-circle {
+    width: 300px;
+    clip-path: circle(150px at 50% 40%);
+}
+	.headshot-caption{	
+	    width:300px;
+		position: relative;
+    		top: -150px;
+	}
+}
 /*special query for small/standard phone sizes*/
 @media only screen and (max-width: 600px) {
 
