@@ -177,6 +177,11 @@ padding-right:10px;
 color: #f1f1f1;
 }
 
+.nav .current
+{
+color: #f1f1f1;
+}
+
 
 
 /*define social media and contact buttons*/
