@@ -136,6 +136,10 @@ body a:link,a:visited
 	left:20px;
 	width:90%;
 }
+.page-name
+{
+	text-align: left;	
+}
 
 /*Image formating*/
 
@@ -148,7 +152,7 @@ width: 90%;
 }
 
 .full-column-portrait {
-width: 50%;	
+width: 40%;	
 }
 /*list formatting*/
 .bio {
