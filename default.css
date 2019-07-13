@@ -333,7 +333,7 @@ position: relative;
 	text-align: left;
 	right:20px;
 	left:30px;
-	width:550px;
+	width:450px;
 	}
 	.headshot{
 	    width:200px;
@@ -347,6 +347,7 @@ position: relative;
     clip-path: circle(75px at 50% 40%);
 }
 	.headshot-caption{	
+		    float: left; 
 	    width:150px;
 		position: relative;
     		top: -75px;
@@ -377,12 +378,12 @@ position: relative;
 	    width: 250px;
 	    float: left;
 	}
-		.main-text-container{
-position: relative;
-	text-align: left;
-	right:40px;
-	left:40px;
-	width:620px;
+	.main-text-container{
+		position: relative;
+		text-align: left;
+		right:40px;
+		left:40px;
+		width:620px;
 	}
 	.content-container {
 		
@@ -393,9 +394,17 @@ position: relative;
 	    display:block;
 	}
 	.headshot-caption{
+		width:200px;
 		position: relative;
     		top: -100px;
 	}
+	.headshot-img{
+   	 width:200px;
+	}
+	.headshot-circle {
+    width: 200px;
+    clip-path: circle(100px at 50% 40%);
+}
 	
 }
 
