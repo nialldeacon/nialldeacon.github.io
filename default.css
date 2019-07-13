@@ -127,7 +127,7 @@ body a:link,a:visited
     float: right;   
 }
 .main-text-container
-{
+{    position: relative;
 	text-align: left;
 	right:20px;
 	left:20px;
