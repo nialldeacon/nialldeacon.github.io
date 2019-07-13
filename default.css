@@ -388,11 +388,19 @@ color: #f1f1f1;
 @media only screen and (max-width: 600px) {
 
 	.headshot{
-	    width:200px;
+	    width:150px;
 	    display:block;
 	}
+	
+	.headshot-img{
+   	 width:150px;
+	}
+	.headshot-circle {
+    width: 150px;
+    clip-path: circle(75px at 50% 40%);
+}
 	.headshot-caption{
-
+	    width:150px;
     position: relative;
     top:-100px;
 	}
