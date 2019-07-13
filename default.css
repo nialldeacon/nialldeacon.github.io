@@ -331,12 +331,12 @@ color: #f1f1f1;
 	.main-text-container{
 position: relative;
 	text-align: left;
-	right:30px;
+	right:20px;
 	left:30px;
-	width:80%;
+	width:550px;
 	
 	.headshot{
-	    width:840px;
+	    width:200px;
 	    display:block;
 	}
 	.headshot-img{
