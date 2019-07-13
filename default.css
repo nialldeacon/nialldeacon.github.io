@@ -333,7 +333,7 @@ position: relative;
 	text-align: left;
 	right:20px;
 	left:30px;
-	width:450px;
+	width:80%;
 	}
 	.headshot{
 	    width:200px;
@@ -383,7 +383,7 @@ position: relative;
 		text-align: left;
 		right:40px;
 		left:40px;
-		width:620px;
+		width:80%;
 	}
 	.content-container {
 		
@@ -410,6 +410,9 @@ position: relative;
 
 /* specific bigger desktop query*/
 @media only screen and (min-width: 1500px) {
+.body{
+	font-size:24px;
+	}
 .sidebar-content-right
 {
 	width: calc(100% - 300px);
@@ -443,7 +446,7 @@ position: relative;
 	text-align: left;
 	right:50px;
 	left:50px;
-	width:800px;
+	width:85%;
 	}
 	.headshot{
 	    width:250px;
@@ -456,16 +459,19 @@ position: relative;
     width: 250px;
     clip-path: circle(125px at 50% 40%);
 }
-	.headshot-caption{	
+	.headshot-caption{
+		font-size:18px;
 	    width:250px;
 		position: relative;
     		top: -125px;
 	}
 }
-
 /* specific huge desktop query*/
 @media only screen and (min-width: 1800px) {
-.sidebar-content-right
+.body{
+	font-size:24px;
+	}
+	.sidebar-content-right
 {
 	width: calc(100% - 400px);
 	float: right;
@@ -498,7 +504,7 @@ position: relative;
 	text-align: left;
 	right:60px;
 	left:60px;
-	width:880px;
+	width:90%;
 	}
 	.headshot{
 	    width:300px;
@@ -511,7 +517,8 @@ position: relative;
     width: 300px;
     clip-path: circle(150px at 50% 40%);
 }
-	.headshot-caption{	
+	.headshot-caption{
+	font-size:20px;
 	    width:300px;
 		position: relative;
     		top: -150px;
