@@ -296,7 +296,8 @@ color: #f1f1f1;
 
 
 /*Go to desktop version of site when desktop size*/
-@media only screen and (min-width: 900px) {
+/* multiple queries to take care of retina displays etc. Basically only goes to desktop when the orientation is landscape and the window is big*/
+@media only screen and (min-width: 750px) and (max-resolution: 1.25dppx) and (orientation: landscape),only screen and (min-width: 1500px) and (max-resolution: 2.5dppx)and (orientation: landscape),only screen and (min-width: 2250px) and (max-resolution: 3.5dppx)and (orientation: landscape) {
 .sidebar-content-right
 {
 	width: calc(100% - 250px);
