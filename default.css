@@ -66,6 +66,7 @@ body a:link,a:visited
 	float: left;
 	    margin: 0;
 	    padding-top: 100px;
+	text-align: center;
 }
 .sidebar-content-right
 {
@@ -127,7 +128,10 @@ body a:link,a:visited
 }
 .main-text-container
 {
-	padding:20px;
+	text-align: left;
+	right:20px;
+	left:20px;
+	width:80%;
 }
 
 /*define text styling containers*/
