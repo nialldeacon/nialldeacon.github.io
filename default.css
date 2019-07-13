@@ -299,7 +299,7 @@ color: #f1f1f1;
 	
 
 /* specific small desktop query*/
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
 .sidebar-content-right
 {
 	width: calc(100% - 200px);
@@ -354,7 +354,7 @@ position: relative;
 }
 
 /*Go to desktop version of site when desktop size*/
-@media only screen and (min-width: 1200px)  {
+@media only screen and (min-width: 1200px)  and (max-width: 1500px) {
 .sidebar-content-right
 {
 	width: calc(100% - 250px);
@@ -400,7 +400,7 @@ position: relative;
 }
 
 /* specific bigger desktop query*/
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1500px) and (max-width: 1800px){
 .sidebar-content-right
 {
 	width: calc(100% - 300px);
