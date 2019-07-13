@@ -12,7 +12,7 @@ body a:link,a:visited
   color:#545165;
 }
 
-/*Set up overall wrappers and containers. Idea here is to first define the mobile version of the site and then redefine for desktop. Reason is it seemed easier to code that way*/
+/*Set up overall wrappers and containers. Idea here is to first define the high-res mobile version of the site and then redefine for desktop. Reason is it seemed easier to code that way*/
 .site_wrapper
 {
 	max-width: 1100px;
@@ -332,5 +332,18 @@ color: #f1f1f1;
 	.headshot-caption{
 		position: relative;
     		top: -100px;
+	}
+}
+/*special query for small/standard phone sizes*/
+@media only screen and (max-width: 500px) 
+
+	.headshot{
+	    width:200px;
+	    display:block;
+	}
+	.headshot-caption{
+
+    position: relative;
+    top:-100px;
 	}
 }
