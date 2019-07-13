@@ -107,6 +107,9 @@ body a:link,a:visited
     font-size: 8pt;
     height:20px;
 }
+
+
+/*define text styling containers*/
 .headshot{
     font-size:14px;
     position: relative;
@@ -134,14 +137,25 @@ body a:link,a:visited
 	width:90%;
 }
 
-/*define text styling containers*/
-
 /*Image formating*/
 
 .headshot-circle {
     width: 200px;
     clip-path: circle(100px at 50% 40%);
 }
+.full-column {
+width: 100%;	
+}
+/*list formatting*/
+.bio {
+	list-style: none
+	display:block;	
+}
+.bio-sub {
+	list-style: none
+	display:block;	
+}
+
 
 /*Define the elements required for the nav menu*/ 
 .nav
