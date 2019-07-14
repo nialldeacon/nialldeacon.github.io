@@ -330,6 +330,7 @@ color: #f1f1f1;
 {
 	width: calc(100% - 200px);
 	float: right;
+	display: block;
 }
 
     
@@ -349,17 +350,18 @@ color: #f1f1f1;
 	    float: left;
 	}
   .sidebar-right:before {
-    content:" ";
+    content:"";
     margin:0;
     position: absolute;
     top: 0;
     bottom: 0;
     width: 1px;
     background: black;
+	  display: block;
   }	
 	.content-container {
 		
-	    width:calc(100% - 190px);
+	    width:calc(100% - 199px);
 	display:inline-block;
 	}
 	
@@ -425,7 +427,7 @@ color: #f1f1f1;
 	}
 	.content-container {
 		
-	    width: calc(100% - 240px);
+	    width: calc(100% - 249px);
 		display:inline-block;
 	}
 	.headshot{
