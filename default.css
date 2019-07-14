@@ -350,16 +350,7 @@ color: #f1f1f1;
 	    width: 200px;
 	    float: left;
 	}
-  .content-container:before {
-    content:"";
-    margin:0;
-    position: absolute;
-    top: 110px;
-    bottom: 10px;
-    width: 1px;
-    background: black;	
-	  display:block;
-	}
+
 .content-container:after {
     content:"";
     margin:0;
