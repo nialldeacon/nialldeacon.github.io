@@ -359,7 +359,7 @@ color: #f1f1f1;
     background: black;
 	  display: block;
 	}
-.content-container:after{
+.sidebar-right:before{
     content:"";
     margin:0;
     position: absolute;
