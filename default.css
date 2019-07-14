@@ -348,10 +348,18 @@ color: #f1f1f1;
 	    width: 200px;
 	    float: left;
 	}
-	
+  .sidebar-right:before {
+    content:" ";
+    margin:0 -15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: black;
+  }	
 	.content-container {
 		
-	    width:calc(100% - 200px);
+	    width:calc(100% - 199px);
 	display:inline-block;
 	}
 	
@@ -417,7 +425,7 @@ color: #f1f1f1;
 	}
 	.content-container {
 		
-	    width: calc(100% - 250px);
+	    width: calc(100% - 249px);
 		display:inline-block;
 	}
 	.headshot{
@@ -477,7 +485,7 @@ color: #f1f1f1;
 	
 	.content-container {
 		
-	    width: calc(100% - 300px);
+	    width: calc(100% - 299px);
 		display: inline-block;
 	}
 	
@@ -543,7 +551,7 @@ color: #f1f1f1;
 	
 	.content-container {
 		
-	    width: calc(100% - 400px);
+	    width: calc(100% - 399px);
 		display:inline-block;
 	}
 	
