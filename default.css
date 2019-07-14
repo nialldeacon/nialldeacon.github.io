@@ -359,9 +359,19 @@ color: #f1f1f1;
     background: black;
 	  display: block;
   }	
+	  .content-container:after {
+    content:"";
+    margin:0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: black;
+	  display: block;
+  }	
 	.content-container {
 		
-	    width:calc(100% - 199px);
+	    width:calc(100% - 202px);
 	display:inline-block;
 	}
 	
@@ -427,7 +437,7 @@ color: #f1f1f1;
 	}
 	.content-container {
 		
-	    width: calc(100% - 249px);
+	    width: calc(100% - 252px);
 		display:inline-block;
 	}
 	.headshot{
@@ -487,7 +497,7 @@ color: #f1f1f1;
 	
 	.content-container {
 		
-	    width: calc(100% - 299px);
+	    width: calc(100% - 302px);
 		display: inline-block;
 	}
 	
@@ -553,7 +563,7 @@ color: #f1f1f1;
 	
 	.content-container {
 		
-	    width: calc(100% - 399px);
+	    width: calc(100% - 402px);
 		display:inline-block;
 	}
 	
