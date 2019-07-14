@@ -342,6 +342,7 @@ color: #f1f1f1;
 	    padding-top: 100px;
 	    width: 200px;
 	    float: right;
+		height:100%;
 	}
 	
 	.sidebar-left {
@@ -353,17 +354,17 @@ color: #f1f1f1;
     content:"";
     margin:0;
     position: absolute;
-    top: 10px;
+    top: 110px;
     bottom: 10px;
     width: 1px;
     background: black;
 	  display: block;
 	}
-.content-container:after{
+.sidebar-right:before{
     content:"";
     margin:0;
     position: absolute;
-    top: 10px;
+    top: 110px;
     bottom: 10px;
 	left:-1px;
     width: 1px;
