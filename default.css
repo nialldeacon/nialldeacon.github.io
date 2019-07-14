@@ -362,10 +362,11 @@ color: #f1f1f1;
   }
 .content-container:after {
     content:"";
-    margin:0;
-    position: relative;
+    position: absolute;
     top: 110px;
     bottom: 10px;
+	right:0;
+	left:auto;
     width: 1px;
     background: black;
 		display:block;
