@@ -358,7 +358,7 @@ color: #f1f1f1;
     bottom: 10px;
     width: 1px;
     background: black;	
-	  display:inline-block;
+	  display:block;
 	}
 .content-container:after {
     content:"";
@@ -368,18 +368,19 @@ color: #f1f1f1;
     bottom: 10px;
     width: 1px;
     background: black;
-		display:inline-block;
+		display:block;
   }	
 	.content-container {
 		
 	    width:calc(100% - 202px);
-	display:inline-block;
+	display:block;
 	}
 	
 	.main-text-container{
 	text-align: left;
 	margin: 0 auto;
 	width:400px;
+		display:inline-block;
 	}
 	.headshot{
 	    width:200px;
