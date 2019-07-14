@@ -358,7 +358,6 @@ color: #f1f1f1;
     bottom: 10px;
     width: 1px;
     background: black;
-	  display: block;
 	}
 .content-container:after {
     content:"";
@@ -368,7 +367,6 @@ color: #f1f1f1;
     bottom: 10px;
     width: 1px;
     background: black;
-	  display: block;
   }	
 	.content-container {
 		
