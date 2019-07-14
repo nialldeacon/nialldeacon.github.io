@@ -353,18 +353,19 @@ color: #f1f1f1;
     content:"";
     margin:0;
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 10px;
+    bottom: 10px;
     width: 1px;
     background: black;
 	  display: block;
 	}
-.sidebar-right:before{
+.content-container:after{
     content:"";
     margin:0;
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 10px;
+    bottom: 10px;
+	left:-1px;
     width: 1px;
     background: black;
 	  display: block;
