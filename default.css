@@ -330,7 +330,7 @@ color: #f1f1f1;
 {
 	width: calc(100% - 200px);
 	float: right;
-	display:inline-block;
+	display:flex;
 }
 
     
@@ -351,7 +351,7 @@ color: #f1f1f1;
 	    float: left;
 	}
 
-.content-container:after {
+.content-container:before {
     content:"";
     margin:0;
     position: absolute;
@@ -360,7 +360,17 @@ color: #f1f1f1;
     width: 1px;
     background: black;
 		display:block;
-  }	
+  }
+.sidebar-right:before {
+    content:"";
+    margin:0;
+    position: absolute;
+    top: 110px;
+    bottom: 10px;
+    width: 1px;
+    background: black;
+		display:block;
+  }		
 	.content-container {
 		
 	    width:calc(100% - 202px);
