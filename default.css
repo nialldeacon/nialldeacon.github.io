@@ -330,7 +330,7 @@ color: #f1f1f1;
 {
 	width: calc(100% - 200px);
 	float: right;
-	display:flex;
+	display:inline-block;
 }
 
     
@@ -341,7 +341,6 @@ color: #f1f1f1;
 	.sidebar-right {
 	    padding-top: 100px;
 	    width: 200px;
-	    float: right;
 		height:100%;
 	}
 	
@@ -361,7 +360,7 @@ color: #f1f1f1;
     background: black;
 		display:block;
   }
-.sidebar-right:before {
+.content-container:after {
     content:"";
     margin:0;
     position: absolute;
