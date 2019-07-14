@@ -359,7 +359,7 @@ color: #f1f1f1;
 	.main-text-container{
 	text-align: left;
 	margin: 0 auto;
-	width:400px;
+	width:450px;
 	}
 	.headshot{
 	    width:200px;
@@ -379,7 +379,14 @@ color: #f1f1f1;
     		top: -75px;
 	}
 }
-
+/*Small-medium desktop query*/
+@media only screen and (min-width: 1050px) {
+.main-text-container{
+		text-align: left;
+		margin: 0 auto;
+		width:550px;
+	}
+}
 /*Go to desktop version of site when desktop size*/
 @media only screen and (min-width: 1200px) {
 .sidebar-content-right
@@ -407,7 +414,7 @@ color: #f1f1f1;
 	.main-text-container{
 		text-align: left;
 		margin: 0 auto;
-		width:600px;
+		width:650px;
 	}
 	.content-container {
 		
@@ -433,6 +440,14 @@ color: #f1f1f1;
 	
 }
 
+/*medium-big desktop query*/
+@media only screen and (min-width: 1050px) {
+.main-text-container{
+		text-align: left;
+		margin: 0 auto;
+		width:750px;
+	}
+}
 /* specific bigger desktop query*/
 @media only screen and (min-width: 1500px) {
 .body{
@@ -470,7 +485,7 @@ color: #f1f1f1;
 	.main-text-container{
 	text-align: left;
 	margin: 0 auto;
-	width:800px;
+	width:850px;
 	}
 	.headshot{
 	    width:250px;
@@ -488,6 +503,15 @@ color: #f1f1f1;
 	    width:250px;
 		position: relative;
     		top: -125px;
+	}
+}
+
+/*bigger-huge desktop query*/
+@media only screen and (min-width: 1650px) {
+.main-text-container{
+		text-align: left;
+		margin: 0 auto;
+		width:950px;
 	}
 }
 /* specific huge desktop query*/
@@ -527,7 +551,7 @@ color: #f1f1f1;
 	.main-text-container{
 	text-align: left;
 	margin: 0 auto;
-	width:800px;
+	width:1050px;
 	}
 	.headshot{
 	    width:300px;
