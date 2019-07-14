@@ -350,7 +350,7 @@ color: #f1f1f1;
 	}
   .sidebar-right:before {
     content:" ";
-    margin:0 -15px;
+    margin:0;
     position: absolute;
     top: 0;
     bottom: 0;
