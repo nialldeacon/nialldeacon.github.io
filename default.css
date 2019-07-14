@@ -363,8 +363,7 @@ color: #f1f1f1;
 .content-container:after {
     content:"";
     margin:0;
-    position: absolute;
-left:calc(100% - 202px);
+    position: relative;
     top: 110px;
     bottom: 10px;
     width: 1px;
