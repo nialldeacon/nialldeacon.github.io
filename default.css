@@ -359,7 +359,7 @@ color: #f1f1f1;
   }	
 	.content-container {
 		
-	    width:calc(100% - 199px);
+	    width:calc(100% - 190px);
 	display:inline-block;
 	}
 	
@@ -425,7 +425,7 @@ color: #f1f1f1;
 	}
 	.content-container {
 		
-	    width: calc(100% - 249px);
+	    width: calc(100% - 240px);
 		display:inline-block;
 	}
 	.headshot{
