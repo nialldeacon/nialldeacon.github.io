@@ -148,6 +148,7 @@ body a:link,a:visited
   margin-right: auto;
 margin-bottom:10px;
 width: 60%;	
+	  display: block;
 }
 
 .full-column-portrait {
@@ -155,6 +156,7 @@ width: 60%;
   margin-right: auto;
 margin-bottom:10px;
 width: 30%;	
+	  display: block;
 }
 /*list formatting*/
 .bio {
