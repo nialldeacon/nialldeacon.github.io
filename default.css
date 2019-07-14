@@ -152,12 +152,12 @@ body a:link,a:visited
 }
 .full-column {
 		text-align: center;
-width: 90%;	
+width: 60%;	
 }
 
 .full-column-portrait {
 		text-align: center;
-width: 40%;	
+width: 30%;	
 }
 /*list formatting*/
 .bio {
