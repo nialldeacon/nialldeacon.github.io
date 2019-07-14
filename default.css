@@ -349,7 +349,7 @@ color: #f1f1f1;
 	    width: 200px;
 	    float: left;
 	}
-  .sidebar-right:before {
+  .content-container:before {
     content:"";
     margin:0;
     position: absolute;
