@@ -339,16 +339,14 @@ color: #f1f1f1;
 	}
 	
 	.sidebar-right {
-		text-align: right;
 	    padding-top: 100px;
-	    min-width: 200px;
+	    width: 200px;
 	    float: right;
 	}
 	
 	.sidebar-left {
-		text-align: left;
 	    padding-top: 100px;
-	    min-width: 200px;
+	    width: 200px;
 	    float: left;
 	}
 	
