@@ -104,6 +104,16 @@ body a:link,a:visited
     height:20px;
 }
 
+right-image {
+	display: block;
+	float: right;
+	width:40%;
+}
+left-image {
+	display: block;
+	float: left;
+	width:40%;
+}
 
 /*define text styling containers*/
 .headshot{
@@ -157,16 +167,6 @@ width: 60%;
 margin-bottom:10px;
 width: 30%;	
 	  display: block;
-}
-right-image {
-	display: block;
-	float: right;
-	width:40%;
-}
-left-image {
-	display: block;
-	float: left;
-	width:40%;
 }
 /*list formatting*/
 .bio {
