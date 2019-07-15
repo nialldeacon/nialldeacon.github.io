@@ -104,12 +104,12 @@ body a:link,a:visited
     height:20px;
 }
 
-right-image {
+.right-image {
 	display: block;
 	float: right;
 	width:40%;
 }
-left-image {
+.left-image {
 	display: block;
 	float: left;
 	width:40%;
