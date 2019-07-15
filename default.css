@@ -212,7 +212,10 @@ color: #f1f1f1;
 {
 color: #f1f1f1;
 }
-
+.nav a:visited
+{
+color:#FFFFFF;	
+}
 
 
 /*define social media and contact buttons*/
