@@ -159,10 +159,12 @@ width: 30%;
 	  display: block;
 }
 right-image {
+	display: block;
 	float: right;
 	width:40%;
 }
 left-image {
+	display: block;
 	float: left;
 	width:40%;
 }
