@@ -168,6 +168,9 @@ margin-bottom:10px;
 width: 30%;	
 	  display: block;
 }
+full-image{
+width:100%;	
+}
 /*list formatting*/
 .bio {
 	list-style: none;
