@@ -158,6 +158,14 @@ margin-bottom:10px;
 width: 30%;	
 	  display: block;
 }
+right-image {
+	float: right;
+	width:40%;
+}
+left-image {
+	float: left;
+	width:40%;
+}
 /*list formatting*/
 .bio {
 	list-style: none;
