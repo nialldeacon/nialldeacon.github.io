@@ -77,7 +77,7 @@ h1,h2,h3,h4,h5,h6 {
 	width: 100%;
 	float: left;
 }
-.footer-space
+.footer-space, .footer-space a:link, .footer-space a:visited
 {
     color: white;
     clear: both;
@@ -230,7 +230,7 @@ padding:0;
 {
 display: inline-block;
 }
-.nav a:link,a:visited
+.nav a:link, .nav a:visited
 {
 height:15px;
 display:inline-block;
