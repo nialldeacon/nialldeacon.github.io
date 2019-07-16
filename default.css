@@ -4,14 +4,14 @@ body {
   	font-family:Georgia;
 	font-size:18px;
 	line-height: 150%:
-  	color:#545165;
+  	color:black;
   	background-color:white;
 	margin: 0 auto;
   	padding: 0;
 }
 body a:link,a:visited
 {
-  color:#545165;
+  color:black;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: PT Sans;
