@@ -125,7 +125,6 @@ body a:link,a:visited
 
 /*define text styling containers*/
 .headshot{
-    font-size:14px;
     position: relative;
     width: 450px;
     top: 10px;
@@ -139,6 +138,7 @@ body a:link,a:visited
     float:left;
 }
 .headshot-caption{
+	font-size:14px;
     padding-top: 50px;
     width:200px;
     float: right;   
@@ -153,6 +153,17 @@ body a:link,a:visited
 .page-name
 {
 	text-align: left;	
+}
+.news-item
+{
+	width:100%;
+	clear:both;		
+}
+.image-caption
+{    
+	font-size:14px;
+	width:100%;
+	
 }
 
 /*Image formating*/
@@ -495,6 +506,9 @@ color: #f1f1f1;
 .body{
 	font-size:24px;
 	}
+.image-caption, .headshot-caption{
+		font-size:18px;
+	}
 .sidebar-content-right
 {
 	width: calc(100% - 300px);
@@ -541,7 +555,6 @@ color: #f1f1f1;
     clip-path: circle(125px at 50% 40%);
 }
 	.headshot-caption{
-		font-size:18px;
 	    width:250px;
 		position: relative;
     		top: -125px;
@@ -560,6 +573,9 @@ color: #f1f1f1;
 @media only screen and (min-width: 1800px) {
 .body{
 	font-size:24px;
+	}
+.image-caption, .headshot-caption{
+		font-size:20px;
 	}
 	.sidebar-content-right
 {
@@ -606,8 +622,8 @@ color: #f1f1f1;
     width: 300px;
     clip-path: circle(150px at 50% 40%);
 }
+
 	.headshot-caption{
-	font-size:20px;
 	    width:300px;
 		position: relative;
     		top: -150px;
