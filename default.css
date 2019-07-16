@@ -107,19 +107,19 @@ body a:link,a:visited
 .right-image {
 	display: block;
 	float: right;
-	top: 5px;
-	bottom: 5px;
-	left:10px;
-	right:5px;
+	top: 10px;
+	bottom: 10px;
+	left:15px;
+	right:10px;
 	width:40%;
 }
 .left-image {
 	display: block;
 	float: left;
-	top: 5px;
-	bottom: 5px;
-	left:5px;
-	right:10px;
+	top: 10px;
+	bottom: 10px;
+	left:10px;
+	right:15px;
 	width:40%;
 }
 
