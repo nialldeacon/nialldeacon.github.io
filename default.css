@@ -1,5 +1,7 @@
+
+/*Set up fonts for whole document plus body styles*/ 
 body {
-  	font-family:Arial;
+  	font-family:Grad;
 	font-size:18px;
 	line-height: 150%:
   	color:#545165;
@@ -10,6 +12,9 @@ body {
 body a:link,a:visited
 {
   color:#545165;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Arial;
 }
 
 /*Set up overall wrappers and containers. Idea here is to first define the high-res mobile version of the site and then redefine for desktop. Reason is it seemed easier to code that way*/
