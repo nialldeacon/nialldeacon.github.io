@@ -71,6 +71,7 @@ body a:link,a:visited
 }
 .footer-space
 {
+    colour: white;
     clear: both;
     margin: 0;
     padding: 0;
