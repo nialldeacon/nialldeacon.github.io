@@ -16,6 +16,9 @@ body a:link,a:visited
 h1,h2,h3,h4,h5,h6 {
 	font-family: PT Sans;
 }
+.nav {
+	font-family: PT Sans;	
+}
 
 /*Set up overall wrappers and containers. Idea here is to first define the high-res mobile version of the site and then redefine for desktop. Reason is it seemed easier to code that way*/
 .site_wrapper
