@@ -107,11 +107,13 @@ body a:link,a:visited
 .right-image {
 	display: block;
 	float: right;
+	margin: 5px;
 	width:40%;
 }
 .left-image {
 	display: block;
 	float: left;
+	margin: 5px;
 	width:40%;
 }
 
@@ -168,7 +170,7 @@ margin-bottom:10px;
 width: 30%;	
 	  display: block;
 }
-full-image{
+.full-image{
 width:100%;	
 }
 /*list formatting*/
