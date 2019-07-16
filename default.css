@@ -310,7 +310,20 @@ color: #f1f1f1;
     opacity: 0.7;
 }
 
-
+.button-goodreads {
+    background: url(./icons/goodreads.svg) no-repeat center,blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.button-goodreads:hover{
+    opacity: 0.7;
+}
 .button-linkedin {
     background: url(./icons/linkedin_inv.svg) no-repeat center,blue;
     background-repeat: no-repeat;
