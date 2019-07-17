@@ -1,0 +1,555 @@
+/*Set up fonts for whole document plus body styles*/ 
+body {
+  	font-family:Georgia;
+	font-size:18px;
+	line-height: 150%:
+  	color:black;
+  	background-color:white;
+	margin: 0 auto;
+  	padding: 0;
+}
+body a:link,a:visited
+{
+  color:black;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: PT Sans;
+}
+.nav {
+	font-family: PT Sans;	
+}
+
+/*Set up overall wrappers and containers. Idea here is to first define the high-res mobile version of the site and then redefine for desktop. Reason is it seemed easier to code that way*/
+.site_wrapper
+{
+	max-width: 1100px;
+}
+.header-space
+{
+	background-color:#8782a2;
+  	min-height: 80px;
+	width: 100%;  
+	position: fixed;
+  	z-index: 9999;
+}
+.name-area
+{
+	float:left;
+	width: 400px;
+}
+.nav-area
+{
+	float:right;	
+}
+.main_wrapper
+{	
+	width: 100%;
+	padding-top: 100px;
+}
+
+.main-content, .sidebar-left, .sidebar-right {
+	width: 100%;
+	float: left;
+	margin: 0;
+    padding: 0;
+}
+.sidebar-left
+{
+	    margin: 0;
+    padding: 0;
+}
+
+.sidebar-right
+{
+	    margin: 0;
+    padding: 0;
+}
+.content-container
+{
+	float: left;
+	    margin: 0;
+	    padding-top: 100px;
+	text-align: center;
+}
+.sidebar-content-right
+{
+	width: 100%;
+	float: left;
+}
+.footer-space, .footer-space a:link, .footer-space a:visited
+{
+    color: white;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    min-height:150px;
+}
+/*set up containers for content within the larger global containers*/
+.footer-left
+{
+    width: 300px;
+    float: left;
+    display: block;
+    margin: 10;
+    padding: 0;
+}
+.footer-right
+{
+    float: right;
+    margin: 10;
+    padding: 0;
+}
+.footer-bottom
+{
+    clear: both;
+    width: 100%;
+    margin: 3px;
+    text-align: center;
+    font-size: 8pt;
+    height:20px;
+}
+
+.right-image {
+	display: block;
+	float: right;
+	top: 10px;
+	bottom: 10px;
+	left:15px;
+	right:10px;
+	padding-left:15px;
+	width:40%;
+}
+.left-image {
+	display: block;
+	float: left;
+	top: 10px;
+	bottom: 10px;
+	left:10px;
+	right:15px;
+	padding-right:15px;
+	width:40%;
+}
+
+/*define text styling containers*/
+.headshot{
+    position: relative;
+    width: 450px;
+    top: 10px;
+    bottom: 10px;
+    right: 20px;
+    left: 30px;
+    display:inline-block;
+}
+.headshot-img{
+    width:200px;
+    float:left;
+}
+.headshot-caption{
+	font-size:14px;
+    padding-top: 50px;
+    width:200px;
+    float: right;   
+}
+.main-text-container
+{    position: relative;
+	text-align: left;
+	right:20px;
+	left:20px;
+	width:90%;
+}
+.page-name
+{
+	text-align: left;	
+}
+.news-item
+{
+	width:100%;
+	clear:both;		
+}
+.image-caption
+{    
+	font-size:14px;
+	width:100%;
+	
+}
+
+/*Image formating*/
+
+.headshot-circle {
+    width: 200px;
+    clip-path: circle(100px at 50% 40%);
+}
+.full-column {
+	  margin-left: auto;
+  margin-right: auto;
+margin-bottom:10px;
+width: 60%;	
+	  display: block;
+}
+
+.full-column-portrait {
+	  margin-left: auto;
+  margin-right: auto;
+margin-bottom:10px;
+width: 30%;	
+	  display: block;
+}
+.full-image{
+width:100%;	
+}
+/*list formatting*/
+.bio {
+	list-style: none;
+	display:block;	
+}
+.bio-sub {
+	list-style: none;
+	display:block;	
+}
+
+
+/*Define the elements required for the nav menu*/ 
+.nav
+{
+display: inline-block;
+margin-left:auto;
+padding: 10px 25px 10px 10px;
+height:45px;
+}
+.nav ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+.nav li
+{
+display: inline-block;
+}
+.nav a:link, .nav a:visited
+{
+height:15px;
+display:inline-block;
+font-size:15px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#8782a2;
+text-align:center;
+text-decoration:none;
+text-transform:lowercase;
+padding-bottom:10px;
+padding-top:5px;
+padding-left:10px;
+padding-right:10px;
+}
+.nav a:hover
+{
+color: #f1f1f1;
+}
+
+.nav .current
+{
+color: #f1f1f1;
+}
+
+
+	
+
+/* specific small desktop query*/
+@media only screen and (min-width: 900px)  {
+.sidebar-content-right
+{
+	width: calc(100% - 200px);
+	float: right;
+	display:inline-block;
+}
+
+    
+.content-container, .sidebar-left, .sidebar-right {
+		position: relative;
+	}
+	
+	.sidebar-right {
+	    padding-top: 100px;
+	    width: 200px;
+		height:100%;
+	}
+	
+	.sidebar-left {
+	    padding-top: 100px;
+	    width: 200px;
+	    float: left;
+	}
+
+.content-container:before {
+    content:"";
+    margin:0;
+    position: absolute;
+    top: 110px;
+    bottom: 10px;
+    width: 1px;
+    background: LightGray;
+		display:block;
+  }
+.content-container:after {
+    content:"";
+    position: absolute;
+    top: 110px;
+    bottom: 10px;
+	right:0;
+	left:auto;
+    width: 1px;
+    background: LightGray;
+		display:block;
+  }		
+	.content-container {
+		
+	    width:calc(100% - 202px);
+	display:block;
+	}
+	
+	.main-text-container{
+	text-align: left;
+	margin: 0 auto;
+	width:400px;
+		display:inline-block;
+	}
+	.headshot{
+	    width:200px;
+	    display:block;
+	}
+	.headshot-img{
+   	 width:150px;
+	}
+	.headshot-circle {
+    width: 150px;
+    clip-path: circle(75px at 50% 40%);
+	}
+	.headshot-caption{	
+		    float: left; 
+	    width:150px;
+		position: relative;
+    		top: -75px;
+	}
+}
+/*Small-medium desktop query*/
+@media only screen and (min-width: 1050px) {
+	.main-text-container{
+	text-align: left;
+	margin: 0 auto;
+	width:600px;
+	}
+}
+/*Go to desktop version of site when desktop size*/
+@media only screen and (min-width: 1200px) {
+.sidebar-content-right
+{
+	width: calc(100% - 250px);
+	float: right;
+}
+
+    
+.content-container, .sidebar-left, .sidebar-right {
+		position: relative;
+	}
+	
+	.sidebar-right {
+	    padding-top: 100px;
+	    width: 250px;
+	    float: right;
+	}
+	
+	.sidebar-left {
+	    padding-top: 100px;
+	    width: 250px;
+	    float: left;
+	}
+	.main-text-container{
+		text-align: left;
+		margin: 0 auto;
+		width:600px;
+	}
+	.content-container {
+		
+	    width: calc(100% - 252px);
+		display:inline-block;
+	}
+	.headshot{
+	    width:200px;
+	    display:block;
+	}
+	.headshot-caption{
+		width:200px;
+		position: relative;
+    		top: -100px;
+	}
+	.headshot-img{
+   	 width:200px;
+	}
+	.headshot-circle {
+    width: 200px;
+    clip-path: circle(100px at 50% 40%);
+}
+	
+}
+
+/*medium-big desktop query*/
+@media only screen and (min-width: 1350px) {
+.main-text-container{
+		text-align: left;
+		margin: 0 auto;
+		width:750px;
+	}
+}
+/* specific bigger desktop query*/
+@media only screen and (min-width: 1500px) {
+.body{
+	font-size:24px;
+	}
+.image-caption, .headshot-caption{
+		font-size:18px;
+	}
+.sidebar-content-right
+{
+	width: calc(100% - 300px);
+	float: right;
+}
+
+    
+.content-container, .sidebar-left, .sidebar-right {
+		position: relative;
+	}
+	
+	.sidebar-right {
+	    padding-top: 100px;
+	    width: 300px;
+	    float: right;
+	}
+	
+	.sidebar-left {
+	    padding-top: 100px;
+	    width: 300px;
+	    float: left;
+	}
+	
+	.content-container {
+		
+	    width: calc(100% - 302px);
+		display: inline-block;
+	}
+	
+	.main-text-container{
+	text-align: left;
+	margin: 0 auto;
+	width:750px;
+	}
+	.headshot{
+	    width:250px;
+	    display:block;
+	}
+	.headshot-img{
+   	 width:250px;
+	}
+	.headshot-circle {
+    width: 250px;
+    clip-path: circle(125px at 50% 40%);
+}
+	.headshot-caption{
+	    width:250px;
+		position: relative;
+    		top: -125px;
+	}
+}
+
+/*bigger-huge desktop query*/
+@media only screen and (min-width: 1650px) {
+.main-text-container{
+		text-align: left;
+		margin: 0 auto;
+		width:850px;
+	}
+}
+/* specific huge desktop query*/
+@media only screen and (min-width: 1800px) {
+.body{
+	font-size:24px;
+	}
+.image-caption, .headshot-caption{
+		font-size:20px;
+	}
+	.sidebar-content-right
+{
+	width: calc(100% - 400px);
+	float: right;
+}
+
+    
+.content-container, .sidebar-left, .sidebar-right {
+		position: relative;
+	}
+	
+	.sidebar-right {
+	    padding-top: 100px;
+	    width: 400px;
+	    float: right;
+	}
+	
+	.sidebar-left {
+	    padding-top: 100px;
+	    width: 400px;
+	    float: left;
+	}
+	
+	.content-container {
+		
+	    width: calc(100% - 402px);
+		display:inline-block;
+	}
+	
+	.main-text-container{
+	text-align: left;
+	margin: 0 auto;
+	width:900px;
+	}
+	.headshot{
+	    width:300px;
+	    display:block;
+	}
+	.headshot-img{
+   	 width:300px;
+	}
+	.headshot-circle {
+    width: 300px;
+    clip-path: circle(150px at 50% 40%);
+}
+
+	.headshot-caption{
+	    width:300px;
+		position: relative;
+    		top: -150px;
+	}
+}
+/*special query for small/standard phone sizes*/
+@media only screen and (max-width: 600px) {
+
+	.headshot{
+	    width:150px;
+	    display:block;
+	}
+	
+	.headshot-img{
+   	 width:150px;
+	}
+	.headshot-circle {
+    width: 150px;
+    clip-path: circle(75px at 50% 40%);
+}
+	.headshot-caption{
+	    width:150px;
+    position: relative;
+    top:-75px;
+	}
+}
