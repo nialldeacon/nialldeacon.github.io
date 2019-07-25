@@ -261,9 +261,9 @@ padding-right:10px;
 color: #DCDCDC;
 }
 
-.nav.current
+.nav.current a:link, .nav.current a:visited
 {
-color: #D3D3D3;
+color: blue;
 }
 
 .nav.current a:hover
