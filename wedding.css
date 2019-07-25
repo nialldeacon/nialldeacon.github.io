@@ -258,7 +258,7 @@ padding-right:10px;
 }
 .nav a:hover
 {
-color: #DCDCDC;
+color: red;
 }
 
 .nav.current a:link, .nav.current a:visited
