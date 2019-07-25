@@ -261,12 +261,12 @@ padding-right:10px;
 color: red;
 }
 
-.current a:link, .current a:visited
+.nav a.current:link, a.current:visited
 {
 color: blue;
 }
 
-.current a:hover
+.nav a.current:hover
 {
 color: #B0B0B0;
 }
