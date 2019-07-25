@@ -258,14 +258,19 @@ padding-right:10px;
 }
 .nav a:hover
 {
-color: #f1f1f1;
+color: #DCDCDC;
 }
 
-.nav .current
+.nav.current
 {
-color: #f1f1f1;
+color: #D3D3D3;
 }
 
+.nav.current a:hover
+{
+color: #B0B0B0;
+}
+ 	
 
 	
 
