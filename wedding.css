@@ -246,7 +246,7 @@ height:15px;
 display:inline-block;
 font-size:15px;
 font-weight:bold;
-color:#FFFFFF;
+color:#DCDCDC;
 background-color: black;
 text-align:center;
 text-decoration:none;
@@ -258,17 +258,17 @@ padding-right:10px;
 }
 .nav a:hover
 {
-color: #DCDCDC;
+color: #B0B0B0;
 }
 
 .nav a.current:link, a.current:visited
 {
-color: #C0C0C0;
+color: #FFFFFF;
 }
 
 .nav a.current:hover
 {
-color: #B0B0B0;
+color: #C0C0C0;
 }
  	
 
