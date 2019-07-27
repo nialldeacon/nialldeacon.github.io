@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5,h6 {
 .header-space
 {
 	background-color:black;
-  	min-height: 110px;
+  	min-height: 125px;
 	width: 100%;  
 	position: fixed;
   	z-index: 9999;
