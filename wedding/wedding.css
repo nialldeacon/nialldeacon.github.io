@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5,h6 {
 .header-space
 {
 	background-color:black;
-  	min-height: 80px;
+  	min-height: 110px;
 	width: 100%;  
 	position: fixed;
   	z-index: 9999;
@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5,h6 {
 {
 	float: left;
 	    margin: 0;
-	    padding-top: 100px;
+	    padding-top: 200px;
 	text-align: center;
 }
 .sidebar-content-right
@@ -280,14 +280,17 @@ color: #C0C0C0;
 	
 
 /* specific small desktop query*/
-@media only screen and (min-width: 900px)  {
+@media only screen and (min-width: 1000px)  {
 .sidebar-content-right
 {
 	width: calc(100% - 200px);
 	float: right;
 	display:inline-block;
 }
-
+.header-space
+	{
+		min-height:80px;
+	}
     
 .content-container, .sidebar-left, .sidebar-right {
 		position: relative;
@@ -327,7 +330,7 @@ color: #C0C0C0;
 		display:block;
   }		
 	.content-container {
-		
+	    padding-top: 100px;
 	    width:calc(100% - 202px);
 	display:block;
 	}
