@@ -220,7 +220,7 @@ width:100%;
 	list-style: none;
 	display:block;	
 }
-footer-list{
+.footer-list{
 	display:inline-block;
 	text-align:center;	
 	text-decoration:none;
@@ -280,7 +280,7 @@ color: #C0C0C0;
 
 /*define social media and contact buttons*/
 .button-github {
-    background: url(./icons/github.svg) no-repeat center, #C0C0C0;
+    background: url(./icons/github.svg) no-repeat center, yellow;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
@@ -294,7 +294,7 @@ color: #C0C0C0;
     opacity: 0.7;
 }
 .button-ads {
-    background: url(./icons/ads_logo.svg) no-repeat center,#C0C0C0;
+    background: url(./icons/ads_logo.svg) no-repeat center,yellow;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -310,7 +310,7 @@ color: #C0C0C0;
 
 
 .button-mail {
-    background: url(./icons/envelope.svg) no-repeat center,#C0C0C0;
+    background: url(./icons/envelope.svg) no-repeat center,yellow;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -325,7 +325,7 @@ color: #C0C0C0;
 }
 
 .button-github {
-    background: url(./icons/github_inv.svg) no-repeat center,#C0C0C0;
+    background: url(./icons/github_inv.svg) no-repeat center,yellow;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -340,7 +340,7 @@ color: #C0C0C0;
 }
 
 .button-goodreads {
-    background: url(./icons/goodreads.svg) no-repeat center,#C0C0C0;
+    background: url(./icons/goodreads.svg) no-repeat center,yellow;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -354,7 +354,7 @@ color: #C0C0C0;
     opacity: 0.7;
 }
 .button-linkedin {
-    background: url(./icons/linkedin_inv.svg) no-repeat center,#C0C0C0;
+    background: url(./icons/linkedin_inv.svg) no-repeat center,yellow;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -370,7 +370,7 @@ color: #C0C0C0;
 
 
 .button-facebook {
-    background: url(./icons/facebook_inv.svg) no-repeat center,#C0C0C0;
+    background: url(./icons/facebook_inv.svg) no-repeat center,yellow;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -385,7 +385,7 @@ color: #C0C0C0;
 }
 
 .button-twitter {
-    background: url(./icons/twitter.svg) no-repeat center,#C0C0C0;
+    background: url(./icons/twitter.svg) no-repeat center,yellow;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
