@@ -107,6 +107,36 @@ h1,h2,h3,h4,h5,h6 {
     margin: 10;
     padding: 0;
 }
+.footer-left ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+.footer-left li
+{
+display: inline-block;
+}
+.footer-left a:link, .nav a:visited
+{
+height:15px;
+display:inline-block;
+font-size:15px;
+font-weight:bold;
+color:white;
+background-color: black;
+text-align:center;
+text-decoration:none;
+text-transform:lowercase;
+padding-bottom:10px;
+padding-top:5px;
+padding-left:10px;
+padding-right:10px;
+}
+.footer-left a:hover
+{
+color: #B0B0B0;
+}
 .footer-right
 {
     float: right;
@@ -219,12 +249,6 @@ width:100%;
 .bio-sub {
 	list-style: none;
 	display:block;	
-}
-.footer-list{
-	display: inline-block;
-	text-align:center;	
-	text-decoration:none;
-	text-transform:lowercase;	
 }
 
 
