@@ -79,7 +79,7 @@ h1,h2,h3,h4,h5,h6 {
 {
 	float: left;
 	    margin: 0;
-	    padding-top: 100px;
+	    padding-top: 150px;
 	text-align: center;
 }
 .sidebar-content-right
@@ -503,6 +503,10 @@ color: #C0C0C0;
 	    width:150px;
 		position: relative;
     		top: -75px;
+	}
+	.footer-space
+	{
+		min-height:80px;
 	}
 }
 /*Small-medium desktop query*/
