@@ -477,6 +477,7 @@ color: #C0C0C0;
   }		
 	.content-container {
 		
+	padding-top: 100px;
 	    width:calc(100% - 202px);
 	display:block;
 	}
@@ -504,8 +505,7 @@ color: #C0C0C0;
 		position: relative;
     		top: -75px;
 	}
-	.footer-space
-	{
+	.footer-space{
 		min-height:80px;
 	}
 }
