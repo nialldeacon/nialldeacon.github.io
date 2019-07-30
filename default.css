@@ -101,7 +101,7 @@ h1,h2,h3,h4,h5,h6 {
 /*set up containers for content within the larger global containers*/
 .footer-left
 {
-    width: 300px;
+    width: 500px;
     float: left;
     display: inline-block;
     margin: 10;
@@ -142,6 +142,10 @@ color: #B0B0B0;
     float: right;
     margin: 10;
     padding: 0;
+}
+.footer-right h4{
+    margin: 0;
+    padding: 0;	
 }
 .footer-bottom
 {
