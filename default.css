@@ -712,7 +712,12 @@ color: #C0C0C0;
 }
 /*special query for small/standard phone sizes*/
 @media only screen and (max-width: 600px) {
-
+	.nav-area{
+	right: 40px;	
+	}
+	.name-area{
+	left:40px;
+	}
 	.headshot{
 	    width:150px;
 	    display:block;
