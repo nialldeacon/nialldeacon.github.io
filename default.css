@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5,h6 {
 .nav-area
 {
 	float:right;	
-	right: 80px;
+	padding-right: 80px;
 }
 .main_wrapper
 {	
@@ -106,7 +106,7 @@ h1,h2,h3,h4,h5,h6 {
     float: left;
     display: inline-block;
     margin: 10;
-    left:80px;
+    padding-left:80px;
     padding: 0;
 }
 .footer-left ul
@@ -143,12 +143,11 @@ color: #B0B0B0;
 {
     float: right;
     margin: 10;
-    right:80px;
-    padding: 0;
+    padding-right:80px;
 }
 .footer-right h4{
     margin: 0;
-    bottom:10px;
+    padding-bottom:10px;
     padding: 0;	
 }
 .footer-bottom
@@ -713,10 +712,10 @@ color: #C0C0C0;
 /*special query for small/standard phone sizes*/
 @media only screen and (max-width: 600px) {
 	.nav-area{
-	right: 40px;	
+	padding-right: 40px;	
 	}
 	.name-area{
-	left:40px;
+	padding-left:40px;
 	}
 	.headshot{
 	    width:150px;
