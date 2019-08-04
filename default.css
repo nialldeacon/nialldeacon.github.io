@@ -105,7 +105,7 @@ h1,h2,h3,h4,h5,h6 {
     width: 500px;
     float: left;
     display: inline-block;
-    margin: 10;
+    top: 10;
     padding-left:80px;
 }
 .footer-left ul
@@ -130,8 +130,8 @@ text-decoration:none;
 text-transform:lowercase;
 padding-bottom:10px;
 padding-top:5px;
-padding-left:10px;
-padding-right:10px;
+padding-left:0px;
+padding-right:20px;
 }
 .footer-left a:hover
 {
@@ -262,7 +262,7 @@ width:100%;
 {
 display: inline-block;
 margin-left:auto;
-padding: 10px 25px 10px 10px;
+padding: 10px 80px 10px 10px;
 height:45px;
 }
 .nav ul
@@ -281,19 +281,19 @@ height:15px;
 display:inline-block;
 font-size:15px;
 font-weight:bold;
-color:#DCDCDC;
-background-color: black;
+color:#B0B0B0;
+background-color: white;
 text-align:center;
 text-decoration:none;
 text-transform:lowercase;
 padding-bottom:10px;
 padding-top:5px;
-padding-left:10px;
-padding-right:10px;
+padding-left:20px;
+padding-right:0px;
 }
 .nav a:hover
 {
-color: #B0B0B0;
+color: #DCDCDC;
 }
 
 .nav a.current:link, a.current:visited
@@ -308,22 +308,9 @@ color: #C0C0C0;
 
 
 /*define social media and contact buttons*/
-.button-github {
-    background: url(./icons/github.svg) no-repeat center, #ee1818;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%;
-    cursor: pointer;
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    border-radius: 40px;
-}
-.button-github:hover{
-    opacity: 0.7;
-}
+
 .button-ads {
-    background: url(./icons/ads_logo.svg) no-repeat center,#ee1818;
+    background: url(./icons/ads_logo.svg) no-repeat center,#DCDCDC;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -369,7 +356,7 @@ color: #C0C0C0;
 }
 
 .button-goodreads {
-    background: url(./icons/goodreads.svg) no-repeat center,#ee1818;
+    background: url(./icons/goodreads.svg) no-repeat center,#DCDCDC;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -383,7 +370,7 @@ color: #C0C0C0;
     opacity: 0.7;
 }
 .button-linkedin {
-    background: url(./icons/linkedin_inv.svg) no-repeat center,#ee1818;
+    background: url(./icons/linkedin_inv.svg) no-repeat center,#DCDCDC;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -399,7 +386,7 @@ color: #C0C0C0;
 
 
 .button-facebook {
-    background: url(./icons/facebook_inv.svg) no-repeat center,#ee1818;
+    background: url(./icons/facebook_inv.svg) no-repeat center,#DCDCDC;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -414,7 +401,7 @@ color: #C0C0C0;
 }
 
 .button-twitter {
-    background: url(./icons/twitter.svg) no-repeat center,#ee1818;
+    background: url(./icons/twitter.svg) no-repeat center,#DCDCDC;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
