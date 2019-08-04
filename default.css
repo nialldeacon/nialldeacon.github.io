@@ -107,13 +107,11 @@ h1,h2,h3,h4,h5,h6 {
     display: inline-block;
     margin: 10;
     padding-left:80px;
-    padding: 0;
 }
 .footer-left ul
 {
 list-style-type:none;
 margin:0;
-padding:0;
 }
 .footer-left li
 {
@@ -356,7 +354,7 @@ color: #C0C0C0;
 }
 
 .button-github {
-    background: url(./icons/github_inv.svg) no-repeat center,#ee1818;
+    background: url(./icons/github_inv.svg) no-repeat center,#DCDCDC;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
