@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6 {
 	color: black;
 	letter-spacing: 1px;
 	margin: 0;
-	padding-left: 80px;
+	padding-left: 20px;
 	text-transform: uppercase;
 }
 
@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5,h6 {
 .nav-area
 {
 	float:right;	
-	padding-right: 80px;
+	padding-right: 20px;
 }
 .main_wrapper
 {	
