@@ -696,8 +696,13 @@ color: #C0C0C0;
 }
 /*special query for small/standard phone sizes*/
 @media only screen and (max-width: 600px) {
+	.name-title {
+	font-size: 30px;
+	padding-left: 10px;
+}
 	.nav-area{
-	padding-right: 20px;	
+	padding-right: 20px;
+	width:100%
 	}
 	.name-area{
 	padding-left:40px;
@@ -706,7 +711,16 @@ color: #C0C0C0;
 	    width:150px;
 	    display:block;
 	}
-	
+	.name-area
+	{
+	width:100%
+	}
+	.footer-left{
+	width:100%;	
+	}
+	.footer-right{
+	width:100%;
+	}
 	.headshot-img{
    	 width:150px;
 	}
