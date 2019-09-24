@@ -107,7 +107,7 @@ h1,h2,h3,h4,h5,h6 {
 /*set up containers for content within the larger global containers*/
 .footer-left
 {
-    width: 500px;
+    width: 100%;
     float: center;
     display: inline-block;
     top: 10;
@@ -507,11 +507,13 @@ color: #C0C0C0;
      .footer-left{
 	  text-align: left;
 	  float:left;
+	  width:500px;
 	  padding-left:30px;
 	}
      .footer-right{
 	  text-align: right;
 	  float:right;
+	  width:400px;
 	  padding-right:30px;
 	}
      .name-title{
