@@ -509,6 +509,7 @@ color: #C0C0C0;
 	  float:left;
 	  width:500px;
 	  padding-left:30px;
+	  margin: 0;
 	}
      .footer-right{
 	  text-align: right;
