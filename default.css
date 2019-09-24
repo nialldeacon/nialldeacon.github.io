@@ -29,6 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 	padding-left: 0px;
 	text-transform: uppercase;
 	text-align:center;
+
 }
 
 /*Set up overall wrappers and containers. Idea here is to first define the high-res mobile version of the site and then redefine for desktop. Reason is it seemed easier to code that way*/
@@ -47,11 +48,12 @@ h1,h2,h3,h4,h5,h6 {
 .name-area
 {
 	text-align: center;
-	float:center;
-	width: 400px;
+	float: center;
+	width: 100%;
 }
 .nav-area
 {
+	width: 100%;
 	text-align: center;
 	float:center;	
 	padding-right: 0px;
@@ -520,11 +522,19 @@ color: #C0C0C0;
 	  padding-left:30px;
 	  text-align: left;
 	  float:left;
+	  width: 400px;
 	}
      .nav-area{
 	  padding-right:30px;
 	  text-align: right;
 	  float:right;
+	  width: 400px;
+	}
+	.footer-left ul
+	{
+	list-style-type:none;
+	margin:0;
+	text-align:left;
 	}
 }
 /*Small-medium desktop query*/
@@ -733,17 +743,16 @@ color: #C0C0C0;
 	.nav-area{
 	padding-right: 0px;
 	width:100%;
-	}
+	padding-left:0px;
+	}	
 	.name-area{
+	padding-right: 0px;
+	width:100%;
 	padding-left:0px;
 	}
 	.headshot{
 	    width:150px;
 	    display:block;
-	}
-	.name-area
-	{
-	width:100%
 	}
 	.footer-left{
 	padding-left:0px;
