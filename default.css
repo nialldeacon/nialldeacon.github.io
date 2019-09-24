@@ -702,7 +702,7 @@ color: #C0C0C0;
 }
 	.nav-area{
 	padding-right: 20px;
-	width:100%
+	width:100%;
 	}
 	.name-area{
 	padding-left:40px;
@@ -716,9 +716,11 @@ color: #C0C0C0;
 	width:100%
 	}
 	.footer-left{
+	padding-right:0px;
 	width:100%;	
 	}
 	.footer-right{
+	float: left;
 	width:100%;
 	}
 	.headshot-img{
