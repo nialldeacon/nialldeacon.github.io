@@ -45,11 +45,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 .name-area
 {
+	text-align: center;
 	float:center;
 	width: 400px;
 }
 .nav-area
 {
+	text-align: center;
 	float:center;	
 	padding-right: 20px;
 }
@@ -107,6 +109,7 @@ h1,h2,h3,h4,h5,h6 {
     display: inline-block;
     top: 10;
     padding-left:0px;
+    text-align: center;
 }
 .footer-left ul
 {
@@ -140,6 +143,7 @@ color: #B0B0B0;
 .footer-right
 {
     float: center;
+    text-align: center;
     margin: 10;
     padding-right:20px;
 }
@@ -497,16 +501,20 @@ color: #C0C0C0;
 		min-height:80px;
 	}
      .footer-left{
+	  text-align: left;
 	  float:left;
 	}
      .footer-right{
+	  text-align: right;
 	  float:right;
 	}
      .name-area{
+	  text-align: left;
 	  float:left;
 	}
      .nav-area{
-	  float:left;
+	  text-align: right;
+	  float:right;
 	}
 }
 /*Small-medium desktop query*/
