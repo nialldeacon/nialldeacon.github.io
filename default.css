@@ -45,12 +45,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 .name-area
 {
-	float:left;
+	float:center;
 	width: 400px;
 }
 .nav-area
 {
-	float:right;	
+	float:center;	
 	padding-right: 20px;
 }
 .main_wrapper
@@ -103,10 +103,10 @@ h1,h2,h3,h4,h5,h6 {
 .footer-left
 {
     width: 500px;
-    float: left;
+    float: center;
     display: inline-block;
     top: 10;
-    padding-left:10px;
+    padding-left:0px;
 }
 .footer-left ul
 {
@@ -139,7 +139,7 @@ color: #B0B0B0;
 }
 .footer-right
 {
-    float: right;
+    float: center;
     margin: 10;
     padding-right:20px;
 }
@@ -496,6 +496,18 @@ color: #C0C0C0;
 	.footer-space{
 		min-height:80px;
 	}
+     .footer-left{
+	  float:left;
+	}
+     .footer-right{
+	  float:right;
+	}
+     .name-area{
+	  float:left;
+	}
+     .nav-area{
+	  float:left;
+	}
 }
 /*Small-medium desktop query*/
 @media only screen and (min-width: 1050px) {
@@ -720,7 +732,6 @@ color: #C0C0C0;
 	width:100%;	
 	}
 	.footer-right{
-	float: left;
 	width:100%;
 	}
 	.headshot-img{
