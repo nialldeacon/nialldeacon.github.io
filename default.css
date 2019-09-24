@@ -106,7 +106,7 @@ h1,h2,h3,h4,h5,h6 {
     float: left;
     display: inline-block;
     top: 10;
-    padding-left:80px;
+    padding-left:10px;
 }
 .footer-left ul
 {
@@ -697,7 +697,7 @@ color: #C0C0C0;
 /*special query for small/standard phone sizes*/
 @media only screen and (max-width: 600px) {
 	.name-title {
-	font-size: 30px;
+	font-size: 50px;
 	padding-left: 10px;
 }
 	.nav-area{
