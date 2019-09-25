@@ -334,7 +334,7 @@ color: #C0C0C0;
 
 
 .button-mail {
-    background: url(./icons/envelope.svg) no-repeat center,#ee1818;
+    background: url(./icons/envelope.svg) no-repeat center,#A0A0A0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -349,7 +349,7 @@ color: #C0C0C0;
 }
 
 .button-github {
-    background: url(./icons/github_inv.svg) no-repeat center,#DCDCDC;
+    background: url(./icons/github_inv.svg) no-repeat center,#A0A0A0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -364,7 +364,7 @@ color: #C0C0C0;
 }
 
 .button-goodreads {
-    background: url(./icons/goodreads.svg) no-repeat center,#DCDCDC;
+    background: url(./icons/goodreads.svg) no-repeat center,#A0A0A0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -378,7 +378,7 @@ color: #C0C0C0;
     opacity: 0.7;
 }
 .button-linkedin {
-    background: url(./icons/linkedin_inv.svg) no-repeat center,#DCDCDC;
+    background: url(./icons/linkedin_inv.svg) no-repeat center,#A0A0A0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -394,7 +394,7 @@ color: #C0C0C0;
 
 
 .button-facebook {
-    background: url(./icons/facebook_inv.svg) no-repeat center,#DCDCDC;
+    background: url(./icons/facebook_inv.svg) no-repeat center,#A0A0A0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -409,7 +409,7 @@ color: #C0C0C0;
 }
 
 .button-twitter {
-    background: url(./icons/twitter.svg) no-repeat center,#DCDCDC;
+    background: url(./icons/twitter.svg) no-repeat center,#A0A0A0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
