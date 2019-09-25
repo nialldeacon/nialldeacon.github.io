@@ -535,12 +535,14 @@ color: #C0C0C0;
 	}
 	.footer-left ul
 	{
+	float: left;
 	list-style-type:none;
 	margin:0;
 	text-align:left;
 	}
-	.footer-left a:link, .footer-left a:visited
+	.footer-left a:link, .footer-left a:visited, .footer-left li
 	{
+	float: left;
 	 text-align:left;
 	}
 }
