@@ -1,0 +1,6 @@
+# All robots allowed
+User-agent: *
+Disallow:
+
+#add sitemap
+Sitemap: http://www.nialldeacon.com/sitemap.xml
