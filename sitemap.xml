@@ -6,7 +6,7 @@
 
       <loc>http://www.nialldeacon.com/</loc>
 
-      <lastmod>2019-10-01</lastmod>
+      <lastmod>2020-03-07</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -16,23 +16,33 @@
 
    <url>
 
-      <loc>http://www.nialldeacon.com/about.html</loc>
+      <loc>http://www.nialldeacon.com/twenty_worlds.html</loc>
 
-      <lastmod>2019-10-01</lastmod>
+      <lastmod>2020-03-07</lastmod>
 
       <changefreq>monthly</changefreq>
 
-      <priority>0.8</priority>
+      <priority>0.9</priority>
 
    </url>
 
+   <url>
 
+      <loc>http://www.nialldeacon.com/about.html</loc>
+
+      <lastmod>2020-03-07</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.7</priority>
+
+   </url>
 
    <url>
 
       <loc>http://www.nialldeacon.com/research.html</loc>
 
-      <lastmod>2019-10-01</lastmod>
+      <lastmod>2020-03-07</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -46,7 +56,7 @@
 
       <loc>http://www.nialldeacon.com/contact.html</loc>
 
-      <lastmod>2019-10-01</lastmod>
+      <lastmod>2020-03-07</lastmod>
 
       <changefreq>yearly</changefreq>
 
