@@ -1012,4 +1012,51 @@ color: #DCDCDC;
     position: relative;
     top:-35px;
 	}
+	
+.button-ads {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+.button-mail {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+.button-github {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+.button-goodreads {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+.button-linkedin {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+.button-facebook {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+.button-pinterest {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+.button-twitter {
+
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+.button-twitter1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
 }
